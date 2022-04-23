@@ -52,11 +52,11 @@ conda install -y -c conda-forge easydict
 pip install pyyaml
 
 # Install PyTorch Geometric
-pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.7.0+cu102.html
-pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-1.7.0+cu102.html
-pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.7.0+cu102.html
-pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.7.0+cu102.html
-pip install torch-geometric==1.6.3
+pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.11.0+cu113.html
+pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-1.11.0+cu113.html
+pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.11.0+cu113.html
+pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.11.0+cu113.html
+pip install torch-geometric
 
 # Install Library
 git clone https://github.com/DeepGraphLearning/ConfGF.git
